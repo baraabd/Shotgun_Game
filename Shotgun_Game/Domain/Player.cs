@@ -21,5 +21,8 @@ namespace Shotgun_Game.Domain
 
         public bool CanShoot => Bullets > 0;    
         public bool CanShotgun => Bullets >= 3;
+
+        public void AddBullet() => Bullets++;                         
+        public void ConsumeBullet() { if (Bullets > 0) Bullets--; }   
     }
 }
