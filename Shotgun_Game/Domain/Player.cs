@@ -20,6 +20,6 @@ namespace Shotgun_Game.Domain
         public abstract Move ChooseMove(int enemyBullets);
 
         public bool CanShoot => Bullets > 0;    
-        public bool CanShotgun => Bullets >= 3;   
+        public bool CanShotgun => Bullets >= 3;
     }
 }
