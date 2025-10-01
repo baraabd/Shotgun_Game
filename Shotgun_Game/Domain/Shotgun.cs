@@ -8,9 +8,9 @@ namespace Shotgun_Game.Domain
 {
     public enum Move
             {
-        Load = 1,
-        Block = 2,
-        Shoot = 3,
-        Shotgun = 4
+        Load = 1,       // Load one bullet
+        Block = 2,      // Block the next incoming shot
+        Shoot = 3,      // Shoot the opponent
+        Shotgun = 4     // Use shotgun (requires 3 bullets)
     }
 }
